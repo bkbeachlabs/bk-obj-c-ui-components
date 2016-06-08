@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CQLCDPortraitPanel">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQLCDFullPanelTop" translatesAutoresizingMaskIntoConstraints="NO" id="lTG-UO-oe5">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="0gR-HA-vde"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQLCDFullPanelMiddle" translatesAutoresizingMaskIntoConstraints="NO" id="6lL-v2-D8b">
+                    <rect key="frame" x="0.0" y="50" width="600" height="400"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQLCDFullPanelBottom0Buttons" translatesAutoresizingMaskIntoConstraints="NO" id="yb2-U1-6yW">
+                    <rect key="frame" x="0.0" y="450" width="600" height="150"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="FRC-hm-NfD"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="6lL-v2-D8b" firstAttribute="top" secondItem="lTG-UO-oe5" secondAttribute="bottom" id="6FY-gl-FJG"/>
+                <constraint firstAttribute="trailing" secondItem="yb2-U1-6yW" secondAttribute="trailing" id="6km-Kg-DFD"/>
+                <constraint firstAttribute="trailing" secondItem="6lL-v2-D8b" secondAttribute="trailing" id="KXh-rm-JIJ"/>
+                <constraint firstItem="yb2-U1-6yW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="OCt-a1-Sl5"/>
+                <constraint firstAttribute="bottom" secondItem="yb2-U1-6yW" secondAttribute="bottom" id="P0a-Aw-waC"/>
+                <constraint firstItem="yb2-U1-6yW" firstAttribute="top" secondItem="6lL-v2-D8b" secondAttribute="bottom" id="VdX-uA-TER"/>
+                <constraint firstItem="lTG-UO-oe5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Y3Z-bz-u0p"/>
+                <constraint firstAttribute="trailing" secondItem="lTG-UO-oe5" secondAttribute="trailing" id="gdC-ui-Q6x"/>
+                <constraint firstItem="lTG-UO-oe5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="tcR-2L-DcH"/>
+                <constraint firstItem="6lL-v2-D8b" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="td9-Nn-N6F"/>
+            </constraints>
+            <connections>
+                <outlet property="bottomPanel" destination="yb2-U1-6yW" id="wcW-5l-S2r"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="CQLCDFullPanelBottom0Buttons" width="300" height="150"/>
+        <image name="CQLCDFullPanelMiddle" width="300" height="240"/>
+        <image name="CQLCDFullPanelTop" width="300" height="50"/>
+    </resources>
+</document>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CQLCDButtonedLandscapePanel">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQGamePlayLandscape_03" translatesAutoresizingMaskIntoConstraints="NO" id="xxr-C7-SBq">
+                    <rect key="frame" x="0.0" y="0.0" width="100" height="38"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="ghH-ft-oaE"/>
+                        <constraint firstAttribute="width" constant="100" id="onN-BI-Dz8"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQGamePlayLandscape_07" translatesAutoresizingMaskIntoConstraints="NO" id="9xy-Av-2Qa">
+                    <rect key="frame" x="0.0" y="38" width="100" height="482"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="t92-LU-GNc"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQGamePlayLandscape_10" translatesAutoresizingMaskIntoConstraints="NO" id="B74-rn-VZF">
+                    <rect key="frame" x="0.0" y="520" width="100" height="80"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="FiK-q2-PtG"/>
+                        <constraint firstAttribute="height" constant="80" id="nGY-2f-X0a"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQGamePlayLandscape_05" translatesAutoresizingMaskIntoConstraints="NO" id="RWj-ed-o1a">
+                    <rect key="frame" x="500" y="0.0" width="100" height="38"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="23U-F6-2O9"/>
+                        <constraint firstAttribute="width" constant="100" id="m4a-Ap-mOd"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQGamePlayLandscape_09" translatesAutoresizingMaskIntoConstraints="NO" id="02k-T9-AH7">
+                    <rect key="frame" x="500" y="38" width="100" height="482"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="G82-mV-0iV"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQGamePlayLandscape_08" translatesAutoresizingMaskIntoConstraints="NO" id="dKE-JQ-Xhq">
+                    <rect key="frame" x="100" y="38" width="400" height="482"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQGamePlayLandscape_11" translatesAutoresizingMaskIntoConstraints="NO" id="TOi-4A-JaI">
+                    <rect key="frame" x="375" y="520" width="125" height="80"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="FuG-j7-Qb3"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQGamePlayLandscape_04" translatesAutoresizingMaskIntoConstraints="NO" id="580-N8-QDH">
+                    <rect key="frame" x="100" y="0.0" width="400" height="38"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="Rl8-c3-Vji"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQGamePlayLandscape_12" translatesAutoresizingMaskIntoConstraints="NO" id="BiP-4R-PlT">
+                    <rect key="frame" x="225" y="520" width="150" height="80"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="jJx-rb-lKG"/>
+                        <constraint firstAttribute="width" constant="150" id="vow-td-g1x"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQGamePlayLandscape_11" translatesAutoresizingMaskIntoConstraints="NO" id="HdY-6r-IA6">
+                    <rect key="frame" x="100" y="520" width="125" height="80"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="VQY-PL-Nqu"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQGamePlayLandscape_14" translatesAutoresizingMaskIntoConstraints="NO" id="sIu-bA-iV2">
+                    <rect key="frame" x="500" y="520" width="100" height="80"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="gmK-aZ-bYq"/>
+                        <constraint firstAttribute="height" constant="80" id="rCr-tX-qOK"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="HdY-6r-IA6" firstAttribute="leading" secondItem="B74-rn-VZF" secondAttribute="trailing" id="0WV-En-mvY"/>
+                <constraint firstItem="02k-T9-AH7" firstAttribute="leading" secondItem="dKE-JQ-Xhq" secondAttribute="trailing" id="25N-3Z-apF"/>
+                <constraint firstAttribute="bottom" secondItem="HdY-6r-IA6" secondAttribute="bottom" id="4Jj-Le-3yk"/>
+                <constraint firstAttribute="trailing" secondItem="sIu-bA-iV2" secondAttribute="trailing" id="AnV-2S-9Ej"/>
+                <constraint firstItem="dKE-JQ-Xhq" firstAttribute="top" secondItem="580-N8-QDH" secondAttribute="bottom" id="Blu-6n-uDF"/>
+                <constraint firstItem="sIu-bA-iV2" firstAttribute="top" secondItem="02k-T9-AH7" secondAttribute="bottom" id="BtQ-U2-h8M"/>
+                <constraint firstAttribute="bottom" secondItem="TOi-4A-JaI" secondAttribute="bottom" id="CnI-bR-DW2"/>
+                <constraint firstItem="TOi-4A-JaI" firstAttribute="leading" secondItem="BiP-4R-PlT" secondAttribute="trailing" id="GFG-yE-83K"/>
+                <constraint firstAttribute="bottom" secondItem="sIu-bA-iV2" secondAttribute="bottom" id="GWf-dU-dzz"/>
+                <constraint firstItem="9xy-Av-2Qa" firstAttribute="top" secondItem="xxr-C7-SBq" secondAttribute="bottom" id="GlS-rH-N9j"/>
+                <constraint firstItem="580-N8-QDH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="LKb-lt-B7Z"/>
+                <constraint firstItem="BiP-4R-PlT" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Lzg-NB-pi8"/>
+                <constraint firstItem="TOi-4A-JaI" firstAttribute="top" secondItem="dKE-JQ-Xhq" secondAttribute="bottom" id="PMb-85-R8E"/>
+                <constraint firstItem="dKE-JQ-Xhq" firstAttribute="leading" secondItem="9xy-Av-2Qa" secondAttribute="trailing" id="Q1k-06-za6"/>
+                <constraint firstItem="BiP-4R-PlT" firstAttribute="leading" secondItem="HdY-6r-IA6" secondAttribute="trailing" id="QH8-AV-Wul"/>
+                <constraint firstItem="BiP-4R-PlT" firstAttribute="top" secondItem="dKE-JQ-Xhq" secondAttribute="bottom" id="U37-DB-47A"/>
+                <constraint firstItem="02k-T9-AH7" firstAttribute="top" secondItem="RWj-ed-o1a" secondAttribute="bottom" id="YEp-S6-adE"/>
+                <constraint firstItem="B74-rn-VZF" firstAttribute="top" secondItem="9xy-Av-2Qa" secondAttribute="bottom" id="bnn-zt-xnH"/>
+                <constraint firstItem="RWj-ed-o1a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cPq-GH-aqC"/>
+                <constraint firstItem="B74-rn-VZF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cTO-Nl-yXq"/>
+                <constraint firstAttribute="bottom" secondItem="BiP-4R-PlT" secondAttribute="bottom" id="cxT-Xe-5d7"/>
+                <constraint firstItem="xxr-C7-SBq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="d6M-ZS-hU9"/>
+                <constraint firstItem="xxr-C7-SBq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="d7F-kY-NXM"/>
+                <constraint firstItem="580-N8-QDH" firstAttribute="leading" secondItem="xxr-C7-SBq" secondAttribute="trailing" id="e7d-Ju-DBQ"/>
+                <constraint firstItem="sIu-bA-iV2" firstAttribute="leading" secondItem="TOi-4A-JaI" secondAttribute="trailing" id="fFF-MW-maH"/>
+                <constraint firstAttribute="bottom" secondItem="B74-rn-VZF" secondAttribute="bottom" id="ggC-xF-x6a"/>
+                <constraint firstAttribute="trailing" secondItem="RWj-ed-o1a" secondAttribute="trailing" id="hEu-3M-xH7"/>
+                <constraint firstAttribute="trailing" secondItem="02k-T9-AH7" secondAttribute="trailing" id="j5c-2t-Ep6"/>
+                <constraint firstItem="HdY-6r-IA6" firstAttribute="top" secondItem="dKE-JQ-Xhq" secondAttribute="bottom" id="jTp-LJ-iFX"/>
+                <constraint firstItem="9xy-Av-2Qa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="s4g-lF-Qvl"/>
+                <constraint firstItem="RWj-ed-o1a" firstAttribute="leading" secondItem="580-N8-QDH" secondAttribute="trailing" id="yZW-L6-yE5"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="CQGamePlayLandscape_03" width="100" height="38"/>
+        <image name="CQGamePlayLandscape_04" width="260" height="38"/>
+        <image name="CQGamePlayLandscape_05" width="100" height="38"/>
+        <image name="CQGamePlayLandscape_07" width="100" height="182"/>
+        <image name="CQGamePlayLandscape_08" width="260" height="182"/>
+        <image name="CQGamePlayLandscape_09" width="100" height="182"/>
+        <image name="CQGamePlayLandscape_10" width="100" height="80"/>
+        <image name="CQGamePlayLandscape_11" width="55" height="80"/>
+        <image name="CQGamePlayLandscape_12" width="150" height="80"/>
+        <image name="CQGamePlayLandscape_14" width="100" height="80"/>
+    </resources>
+</document>
