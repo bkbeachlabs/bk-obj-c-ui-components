@@ -41,7 +41,7 @@
     UIColor *highlightColor;
     UIColor *textColor;
 
-    int H_Frame_Width;
+    NSInteger H_Frame_Width;
     float highlightAlpha;
 }
 

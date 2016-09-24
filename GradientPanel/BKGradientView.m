@@ -225,7 +225,7 @@ CGFloat* colorsArrayWithNSArray(NSArray *nsArray) {
     NSUInteger count = [nsArray count];
     CGFloat *returnArray = (double *) malloc(sizeof(double) * count*4);
     
-    for (int i=0; i<count; i++) {
+    for (NSInteger i=0; i<count; i++) {
         UIColor *color = [nsArray objectAtIndex:i];
         
         const CGFloat* components = CGColorGetComponents(color.CGColor);
@@ -253,7 +253,7 @@ CGFloat* floatArrayWithNSArray(NSArray *nsArray) {
     NSUInteger count = [nsArray count];
     CGFloat *returnArray = (double *) malloc(sizeof(double) * count);
     
-    for (int i=0; i<count; i++) {
+    for (NSInteger i=0; i<count; i++) {
         returnArray[i] = [nsArray[i] floatValue];
     }
     return returnArray;

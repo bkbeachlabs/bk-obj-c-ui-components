@@ -13,12 +13,12 @@
 
 @implementation CoinsBalanceAnimator
 
-+ (void)animateCoinsBalanceChangeWithInitialBalance:(int)initialBal
-                                       FinalBalance:(int)finalBalance
++ (void)animateCoinsBalanceChangeWithInitialBalance:(NSInteger)initialBal
+                                       FinalBalance:(NSInteger)finalBalance
                                  InitialCoordinates:(CGPoint)initialCoord
-                                           Duration:(float)duration
+                                           Duration:(CGFloat)duration
                                      NeedsIndicator:(BOOL)needsIndicator
-                                        ScreenWidth:(int)screenWidth
+                                        ScreenWidth:(NSInteger)screenWidth
                                            OntoView:(UIView *)receivingView {
     
     // Initializing Variables
@@ -50,7 +50,7 @@
     [balanceLabel setTextAlignment:NSTextAlignmentLeft];
     [balanceLabel setAdjustsFontSizeToFitWidth:YES];
     [balanceLabel setMinimumScaleFactor:0];
-    [balanceLabel setText:[NSString stringWithFormat:@"%i",initialBal]];
+    [balanceLabel setText:[NSString stringWithFormat:@"%ld", initialBal]];
     [indicatorTopBar addSubview:balanceLabel];
     
     UIImageView *coin = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ccCoin-20px"]];
@@ -83,7 +83,7 @@
             } completion:^(BOOL finished) {
                 // Update Balance Label
                 [UIView animateWithDuration:duration/balanceIncrease animations:^() {
-                    [balanceLabel setText:[NSString stringWithFormat:@"%i",finalBalance]];
+                    [balanceLabel setText:[NSString stringWithFormat:@"%ld",finalBalance]];
                 } completion:^(BOOL finished) {
                     
                     // Move Indicator Bar Up

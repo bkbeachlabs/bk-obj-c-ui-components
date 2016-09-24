@@ -10,12 +10,12 @@
 
 @interface CoinsBalanceAnimator : NSObject
 
-+ (void)animateCoinsBalanceChangeWithInitialBalance:(int)initialBal
-                                       FinalBalance:(int)finalBalance
++ (void)animateCoinsBalanceChangeWithInitialBalance:(NSInteger)initialBal
+                                       FinalBalance:(NSInteger)finalBalance
                                  InitialCoordinates:(CGPoint)initialCoord
-                                           Duration:(float)duration
+                                           Duration:(CGFloat)duration
                                      NeedsIndicator:(BOOL)needsIndicator
-                                        ScreenWidth:(int)screenWidth
+                                        ScreenWidth:(NSInteger)screenWidth
                                            OntoView:(UIView *)receivingView;
 
 @end
