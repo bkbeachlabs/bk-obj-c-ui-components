@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CQLCDGreyPortraitPanel">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQLCDFullPanelGreyTop" translatesAutoresizingMaskIntoConstraints="NO" id="uLm-LD-Nm5">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="PRk-7x-84U"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQLCDFullPanelGreyBottom0Buttons" translatesAutoresizingMaskIntoConstraints="NO" id="fJZ-z8-MjW">
+                    <rect key="frame" x="0.0" y="450" width="600" height="150"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="tZj-6i-3aA"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQLCDFullPanelGreyMiddle" translatesAutoresizingMaskIntoConstraints="NO" id="c0e-o1-qX2">
+                    <rect key="frame" x="0.0" y="50" width="600" height="400"/>
+                    <animations/>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fJZ-z8-MjW" secondAttribute="trailing" id="7s3-tl-eMj"/>
+                <constraint firstItem="c0e-o1-qX2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Al2-lT-Yep"/>
+                <constraint firstItem="uLm-LD-Nm5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Lzk-5F-fu0"/>
+                <constraint firstAttribute="bottom" secondItem="fJZ-z8-MjW" secondAttribute="bottom" id="UET-Ca-Ln8"/>
+                <constraint firstItem="uLm-LD-Nm5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eLk-wg-lpR"/>
+                <constraint firstItem="c0e-o1-qX2" firstAttribute="top" secondItem="uLm-LD-Nm5" secondAttribute="bottom" id="gcy-YR-Ibj"/>
+                <constraint firstAttribute="trailing" secondItem="uLm-LD-Nm5" secondAttribute="trailing" id="jIb-vB-5DQ"/>
+                <constraint firstAttribute="trailing" secondItem="c0e-o1-qX2" secondAttribute="trailing" id="qfe-bp-sSU"/>
+                <constraint firstItem="fJZ-z8-MjW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="roV-2N-o5C"/>
+                <constraint firstItem="fJZ-z8-MjW" firstAttribute="top" secondItem="c0e-o1-qX2" secondAttribute="bottom" id="vwh-qa-QEN"/>
+            </constraints>
+            <connections>
+                <outlet property="bottomPanel" destination="fJZ-z8-MjW" id="0em-RZ-WqH"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="CQLCDFullPanelGreyBottom0Buttons" width="300" height="150"/>
+        <image name="CQLCDFullPanelGreyMiddle" width="300" height="240"/>
+        <image name="CQLCDFullPanelGreyTop" width="300" height="50"/>
+    </resources>
+</document>

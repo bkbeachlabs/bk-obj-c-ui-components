@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CQLCDButtonlessLandscapePanel">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQLCDLandscapeInfoPanel_01" translatesAutoresizingMaskIntoConstraints="NO" id="mja-bD-01h">
+                    <rect key="frame" x="0.0" y="0.0" width="100" height="600"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="5b9-qe-lGR"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQLCDLandscapeInfoPanel_05" translatesAutoresizingMaskIntoConstraints="NO" id="QEv-OX-84z">
+                    <rect key="frame" x="500" y="0.0" width="100" height="600"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="j2T-Rz-L1I"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQLCDLandscapeInfoPanel_02" translatesAutoresizingMaskIntoConstraints="NO" id="kSL-br-VDQ">
+                    <rect key="frame" x="100" y="0.0" width="125" height="600"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQLCDLandscapeInfoPanel_04" translatesAutoresizingMaskIntoConstraints="NO" id="wd8-pA-lSA">
+                    <rect key="frame" x="375" y="0.0" width="125" height="600"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CQLCDLandscapeInfoPanel_03" translatesAutoresizingMaskIntoConstraints="NO" id="nOW-aY-jyQ">
+                    <rect key="frame" x="225" y="0.0" width="150" height="600"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="J6m-sI-q2n"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="wd8-pA-lSA" secondAttribute="bottom" id="CXK-Pe-ack"/>
+                <constraint firstItem="nOW-aY-jyQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="E1I-18-QuG"/>
+                <constraint firstItem="mja-bD-01h" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Hh0-jN-BQc"/>
+                <constraint firstAttribute="bottom" secondItem="QEv-OX-84z" secondAttribute="bottom" id="ICf-rE-zMB"/>
+                <constraint firstItem="wd8-pA-lSA" firstAttribute="leading" secondItem="nOW-aY-jyQ" secondAttribute="trailing" id="K5x-CP-yEc"/>
+                <constraint firstItem="kSL-br-VDQ" firstAttribute="leading" secondItem="mja-bD-01h" secondAttribute="trailing" id="OaL-Vb-UEx"/>
+                <constraint firstAttribute="bottom" secondItem="mja-bD-01h" secondAttribute="bottom" id="PuB-nJ-glK"/>
+                <constraint firstItem="QEv-OX-84z" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="R2x-Zn-Ew8"/>
+                <constraint firstAttribute="bottom" secondItem="kSL-br-VDQ" secondAttribute="bottom" id="T8s-lO-jV6"/>
+                <constraint firstItem="mja-bD-01h" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Tdc-gi-SOf"/>
+                <constraint firstItem="nOW-aY-jyQ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Un5-cG-fVx"/>
+                <constraint firstItem="nOW-aY-jyQ" firstAttribute="leading" secondItem="kSL-br-VDQ" secondAttribute="trailing" id="Ynb-cJ-n1r"/>
+                <constraint firstItem="kSL-br-VDQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cgg-m3-Bq8"/>
+                <constraint firstItem="wd8-pA-lSA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eai-eN-OyP"/>
+                <constraint firstAttribute="trailing" secondItem="QEv-OX-84z" secondAttribute="trailing" id="egY-To-Yca"/>
+                <constraint firstAttribute="bottom" secondItem="nOW-aY-jyQ" secondAttribute="bottom" id="wad-CU-P7t"/>
+                <constraint firstItem="QEv-OX-84z" firstAttribute="leading" secondItem="wd8-pA-lSA" secondAttribute="trailing" id="xLs-6c-29J"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="CQLCDLandscapeInfoPanel_01" width="100" height="220"/>
+        <image name="CQLCDLandscapeInfoPanel_02" width="55" height="220"/>
+        <image name="CQLCDLandscapeInfoPanel_03" width="150" height="220"/>
+        <image name="CQLCDLandscapeInfoPanel_04" width="55" height="220"/>
+        <image name="CQLCDLandscapeInfoPanel_05" width="100" height="220"/>
+    </resources>
+</document>

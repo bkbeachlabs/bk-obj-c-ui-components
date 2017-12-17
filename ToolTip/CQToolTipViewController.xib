@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CQToolTipViewController">
+            <connections>
+                <outlet property="bottomArrowImageView" destination="qAf-wo-rEr" id="ZLR-51-G5B"/>
+                <outlet property="bottomArrowLeadingDistanceConstraint" destination="eYq-lm-HGz" id="T51-Qu-kfA"/>
+                <outlet property="gradientPanelView" destination="MNO-Bw-lQi" id="dtt-Bl-kxB"/>
+                <outlet property="leftArrowImageView" destination="kcZ-ah-Gyc" id="NyC-kG-KPv"/>
+                <outlet property="leftArrowTopDistanceConstraint" destination="rbA-UL-4jd" id="OMQ-pm-mKb"/>
+                <outlet property="rightArrowImageView" destination="Ngd-Om-HOQ" id="AJT-jv-Cap"/>
+                <outlet property="rightArrowTopDistanceConstraint" destination="iZA-Ov-qb2" id="KFA-c4-L8x"/>
+                <outlet property="textLabel" destination="UTz-97-hEe" id="q2L-UX-c91"/>
+                <outlet property="tooltipHeightConstraint" destination="BVe-4p-BHy" id="Ecf-fK-aGX"/>
+                <outlet property="tooltipWidthConstraint" destination="auJ-iB-E53" id="6O8-U2-GHe"/>
+                <outlet property="topArrowImageView" destination="Lce-yG-80m" id="8eQ-DZ-99Y"/>
+                <outlet property="topArrowLeadingDistanceConstraint" destination="yaK-Q4-gQk" id="SGr-Xc-zcH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="280"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MNO-Bw-lQi" customClass="BKGradientPanelView">
+                    <rect key="frame" x="8" y="8" width="264" height="264"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="264" id="BVe-4p-BHy"/>
+                        <constraint firstAttribute="width" constant="264" id="auJ-iB-E53"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ngd-Om-HOQ" customClass="CQToolTipArrowPointView">
+                    <rect key="frame" x="272" y="132" width="8" height="16"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="V5W-JL-mNo"/>
+                        <constraint firstAttribute="width" constant="8" id="fhk-fe-bTM"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kcZ-ah-Gyc" customClass="CQToolTipArrowPointView">
+                    <rect key="frame" x="0.0" y="39" width="8" height="16"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="19e-UO-19x"/>
+                        <constraint firstAttribute="width" constant="8" id="SZI-Vo-zfK"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lce-yG-80m" customClass="CQToolTipArrowPointView">
+                    <rect key="frame" x="60" y="0.0" width="16" height="8"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="16" id="Ycx-2o-zjo"/>
+                        <constraint firstAttribute="height" constant="8" id="dPR-Ll-b8u"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qAf-wo-rEr" customClass="CQToolTipArrowPointView">
+                    <rect key="frame" x="60" y="272" width="16" height="8"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="16" id="bnq-1B-fXW"/>
+                        <constraint firstAttribute="height" constant="8" id="ebg-o5-us6"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTz-97-hEe">
+                    <rect key="frame" x="16" y="16" width="248" height="248"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJ5-Zo-Seu">
+                    <rect key="frame" x="8" y="8" width="264" height="264"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="didPressToolTip:" destination="-1" eventType="touchUpInside" id="MNY-qr-EpA"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="nJ5-Zo-Seu" firstAttribute="top" secondItem="Lce-yG-80m" secondAttribute="bottom" id="37h-EU-GfV"/>
+                <constraint firstItem="kcZ-ah-Gyc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="6jB-Ez-Ejh"/>
+                <constraint firstItem="UTz-97-hEe" firstAttribute="top" secondItem="Lce-yG-80m" secondAttribute="bottom" constant="8" id="AsI-0e-OPc"/>
+                <constraint firstAttribute="bottom" secondItem="qAf-wo-rEr" secondAttribute="bottom" id="DYW-X8-swu"/>
+                <constraint firstItem="Ngd-Om-HOQ" firstAttribute="leading" secondItem="MNO-Bw-lQi" secondAttribute="trailing" id="EI3-Vc-CIt"/>
+                <constraint firstAttribute="trailing" secondItem="Ngd-Om-HOQ" secondAttribute="trailing" id="Hdx-hQ-O7Q"/>
+                <constraint firstItem="UTz-97-hEe" firstAttribute="leading" secondItem="kcZ-ah-Gyc" secondAttribute="trailing" constant="8" id="J2d-Pn-E5d"/>
+                <constraint firstItem="Lce-yG-80m" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="NDG-xZ-vWM"/>
+                <constraint firstItem="qAf-wo-rEr" firstAttribute="top" secondItem="MNO-Bw-lQi" secondAttribute="bottom" id="RQw-Vk-kmw"/>
+                <constraint firstItem="MNO-Bw-lQi" firstAttribute="top" secondItem="Lce-yG-80m" secondAttribute="bottom" id="Z3o-cA-Whd"/>
+                <constraint firstItem="qAf-wo-rEr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="60" id="eYq-lm-HGz"/>
+                <constraint firstItem="nJ5-Zo-Seu" firstAttribute="leading" secondItem="kcZ-ah-Gyc" secondAttribute="trailing" id="gq8-pY-uNr"/>
+                <constraint firstItem="Ngd-Om-HOQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="132" id="iZA-Ov-qb2"/>
+                <constraint firstItem="Ngd-Om-HOQ" firstAttribute="leading" secondItem="nJ5-Zo-Seu" secondAttribute="trailing" id="jvg-gC-uZy"/>
+                <constraint firstItem="qAf-wo-rEr" firstAttribute="top" secondItem="UTz-97-hEe" secondAttribute="bottom" constant="8" id="k2H-h6-vE1"/>
+                <constraint firstItem="Ngd-Om-HOQ" firstAttribute="leading" secondItem="UTz-97-hEe" secondAttribute="trailing" constant="8" id="m65-IW-XsF"/>
+                <constraint firstItem="qAf-wo-rEr" firstAttribute="top" secondItem="nJ5-Zo-Seu" secondAttribute="bottom" id="moL-Ic-3rb"/>
+                <constraint firstItem="MNO-Bw-lQi" firstAttribute="leading" secondItem="kcZ-ah-Gyc" secondAttribute="trailing" id="rZp-Gz-2rD"/>
+                <constraint firstItem="kcZ-ah-Gyc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="39" id="rbA-UL-4jd"/>
+                <constraint firstItem="Lce-yG-80m" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="60" id="yaK-Q4-gQk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-40" y="89"/>
+        </view>
+    </objects>
+</document>
